@@ -1,3 +1,3 @@
-# Shell-Program-Assignment
+# Shell-Program
 
 Linux-use only
