@@ -3,7 +3,11 @@
 Linux-use only
 
 Use makefile to build code
-'make'
+```
+make
+```
 
 Run unit_test to test all 20 test conditions
-'./unit_test'
+```
+./unit_test
+```
