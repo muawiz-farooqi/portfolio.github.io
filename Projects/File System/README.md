@@ -28,7 +28,7 @@ Commands supported:
 |------------------------|---------------------------------------------|-------------------------------------------------------------------------------------------|
 | put                    | ```put <filename>```                              | Copy the local file to the filesystem image                                               |
 | get                    | ```get <filename>```                              | Retrieve the file from the filesystem image                                               |
-| get                    | ```get <filename> <newfilename>```                | Retrieve the file form the file system image and place it in the file named &ltnewfilename&gt; |
+| get                    | ```get <filename> <newfilename>```                | Retrieve the file form the file system image and place it in the file named &lt;newfilename&gt; |
 | del                    | ```del <filename>```                              | Delete the file                                                                           |
 | undel                  | ```undel <filename>```                            | Undelete the file if found in the directory                                               |
 | list                   | ```list [-h]```                                   | List the files in the file system image                                                   |
