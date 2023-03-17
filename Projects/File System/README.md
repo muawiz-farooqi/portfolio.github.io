@@ -43,6 +43,8 @@ Commands supported:
 
 Valid Attributes:
 
-| h                                 | h Hidden. The file does not display in the directory listing     |
+| h                                 | Hidden. The file does not display in the directory
+listing     |
 |-----------------------------------|------------------------------------------------------------------|
-| r                                 | r Read-Only. The file is marked read-only and can not be deleted |
+| r                                 | Read-Only. The file is marked read-only and can
+not be deleted |
