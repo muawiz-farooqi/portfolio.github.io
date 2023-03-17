@@ -24,25 +24,26 @@ Run mfs to open mfs file system
 Commands supported:
 
 
-| **Command**                | **Usage**                                       | **Description**                                                                               |
-|------------------------|---------------------------------------------|-------------------------------------------------------------------------------------------|
-| put                    | ```put <filename>```                              | Copy the local file to the filesystem image                                               |
-| get                    | ```get <filename>```                              | Retrieve the file from the filesystem image                                               |
+| **Command**            | **Usage**                                         | **Description**                                                                                 |
+|------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| put                    | ```put <filename>```                              | Copy the local file to the filesystem image                                                     |
+| get                    | ```get <filename>```                              | Retrieve the file from the filesystem image                                                     |
 | get                    | ```get <filename> <newfilename>```                | Retrieve the file form the file system image and place it in the file named &lt;newfilename&gt; |
-| del                    | ```del <filename>```                              | Delete the file                                                                           |
-| undel                  | ```undel <filename>```                            | Undelete the file if found in the directory                                               |
-| list                   | ```list [-h]```                                   | List the files in the file system image                                                   |
-| df                     | ```df```                                          | Display the amount of disk space left in the file system                                  |
-| open                   | ```open <file image name>```                      | Open a file system image                                                                  |
-| close                  | ```close```                                       | Close the currently open file system                                                      |
-| createfs               | ```createfs <disk image name>```                  | Create a new file system image                                                            |
-| savefs                 | ```savefs```                                      | Save the current file system image                                                        |
-| attrib                 | ```attrib [+attribute] [-attribute] <filename>``` | Set or remove the attribute for the file                                                  |
-| quit                   | ```quit```                                        | Quit the application                                                                      |
+| del                    | ```del <filename>```                              | Delete the file                                                                                 |
+| undel                  | ```undel <filename>```                            | Undelete the file if found in the directory                                                     |
+| list                   | ```list [-h]```                                   | List the files in the file system image                                                         |
+| df                     | ```df```                                          | Display the amount of disk space left in the file system                                        |
+| open                   | ```open <file image name>```                      | Open a file system image                                                                        |
+| close                  | ```close```                                       | Close the currently open file system                                                            |
+| createfs               | ```createfs <disk image name>```                  | Create a new file system image                                                                  |
+| savefs                 | ```savefs```                                      | Save the current file system image                                                              |
+| attrib                 | ```attrib [+attribute] [-attribute] <filename>``` | Set or remove the attribute for the file                                                        |
+| quit                   | ```quit```                                        | Quit the application                                                                            |
 
 
 Valid Attributes:
 
+| Label                             | Description                                                    |
+|-----------------------------------|----------------------------------------------------------------|
 | h                                 | Hidden. The file does not display in the directory listing     |
-|-----------------------------------|------------------------------------------------------------------|
 | r                                 | Read-Only. The file is marked read-only and can not be deleted |
